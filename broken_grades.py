@@ -30,7 +30,7 @@ for i in grades:
 
 avg = total / len(grades)
 
-if avg > 89:
+if avg >= 89:
     letter_grade = "A"
 elif avg >= 80 and avg < 90:
     letter_grade = "B"
